@@ -86,7 +86,7 @@
           },
           "to": [
             {
-              "key_code": "equal_sign"
+              "key_code": "0"
             }
           ],
           "conditions": [
@@ -107,7 +107,7 @@
           },
           "to": [
             {
-              "key_code": "hyphen"
+              "key_code": "9"
             }
           ],
           "conditions": [
@@ -128,7 +128,7 @@
           },
           "to": [
             {
-              "key_code": "0"
+              "key_code": "8"
             }
           ],
           "conditions": [
@@ -149,7 +149,7 @@
           },
           "to": [
             {
-              "key_code": "9"
+              "key_code": "7"
             }
           ],
           "conditions": [
@@ -170,7 +170,7 @@
           },
           "to": [
             {
-              "key_code": "8"
+              "key_code": "6"
             }
           ],
           "conditions": [
@@ -191,7 +191,7 @@
           },
           "to": [
             {
-              "key_code": "7"
+              "key_code": "5"
             }
           ],
           "conditions": [
@@ -212,7 +212,7 @@
           },
           "to": [
             {
-              "key_code": "6"
+              "key_code": "4"
             }
           ],
           "conditions": [
@@ -233,7 +233,7 @@
           },
           "to": [
             {
-              "key_code": "5"
+              "key_code": "3"
             }
           ],
           "conditions": [
@@ -254,7 +254,7 @@
           },
           "to": [
             {
-              "key_code": "4"
+              "key_code": "2"
             }
           ],
           "conditions": [
@@ -275,49 +275,7 @@
           },
           "to": [
             {
-              "key_code": "3"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mirror",
-              "value": 1
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "equal_sign",
-            "modifiers": {
-              "optional": ["any"]
-            }
-          },
-          "to": [
-            {
               "key_code": "1"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mirror",
-              "value": 1
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "hyphen",
-            "modifiers": {
-              "optional": ["any"]
-            }
-          },
-          "to": [
-            {
-              "key_code": "2"
             }
           ],
           "conditions": [
